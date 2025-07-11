@@ -1,0 +1,10 @@
+{
+  "entryPoints": [
+    "src/EventQue.ts"
+  ],
+  "out": "docs",
+  "includeVersion": true,
+  "tsconfig": "tsconfig.json",
+  "name": "EventQue",
+  "cleanOutputDir": true
+}
