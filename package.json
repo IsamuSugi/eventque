@@ -1,11 +1,11 @@
 {
   "name": "eventque",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A type-safe, async-friendly, queue-based event emitter for Node.js and TypeScript.",
   "main": "dist/src/EventQue.js",
   "types": "dist/src/EventQue.d.ts",
   "scripts": {
-    "clean": "rm -rf dist node_modules",
+    "clean": "rm -rf dist node_modules package-lock.json",
     "reset": "npm run clean && npm install && npm run build",
     "build": "tsc",
     "test": "vitest",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/eventque.git"
+    "url": "https://github.com/isamusugi/eventque.git"
   },
   "keywords": [
     "event",
@@ -27,10 +27,11 @@
     "abortsignal",
     "timeout"
   ],
-  "author": "Your Name",
+  "author": "Isamu Sugiura",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^24.0.13",
+    "@vitest/coverage-v8": "^3.2.4",
     "typedoc": "^0.28.7",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"
