@@ -2,8 +2,8 @@
   "name": "eventque",
   "version": "1.0.0",
   "description": "A type-safe, async-friendly, queue-based event emitter for Node.js and TypeScript.",
-  "main": "dist/EventQue.js",
-  "types": "dist/EventQue.d.ts",
+  "main": "dist/src/EventQue.js",
+  "types": "dist/src/EventQue.d.ts",
   "scripts": {
     "clean": "rm -rf dist node_modules",
     "reset": "npm run clean && npm install && npm run build",
